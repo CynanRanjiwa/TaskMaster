@@ -14,3 +14,6 @@ def get_db ():
         yield db
     finally:
         db.close()
+
+        # handles the creation of the databse engine and session management 
+        
