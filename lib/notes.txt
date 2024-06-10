@@ -1,0 +1,37 @@
+Users
+-----
+id (Primary Key)
+name
+email
+
+Categories
+-----------
+id (Primary Key)
+name
+
+Tasks
+-----
+id (Primary Key)
+title
+description
+category_id (Foreign Key to Categories)
+priority
+due_date
+status
+user_id (Foreign Key to Users, optional)
+
+
+# Task Manager CLI
+
+A Command-Line Interface for managing tasks. You can add, view, update, and delete tasks, assign priorities, and categorize them.
+
+## Features
+- Add tasks with titles and descriptions.
+- View all tasks.
+- Update and delete tasks.
+- Categorize tasks and set priorities.
+
+## Setup
+1. Clone the repository:
+   ```bash
+   git clone <repo-url>
